@@ -11,7 +11,7 @@ package sistema.empleadosBL;
 public class empleadosBL {
     
     int ID;
-    String nombre, correo;
+    String nombre, correo,ciudad,telefono;
 
     public int getID() {
         return ID;
@@ -38,4 +38,16 @@ public class empleadosBL {
     }
     
     
+     public void setCiudad(String ciudad){
+         this.ciudad=ciudad;
+     }
+     public String getCiudad() {
+        return ciudad;
+    }
+      public void setTelefono(String telefono){
+        this.telefono=telefono;
+     }
+     public String getTelefono() {
+        return telefono;
+    }
 }
